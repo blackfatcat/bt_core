@@ -1,6 +1,6 @@
-#include <print>
+#pragma once
 
-namespace bt::tmpl8
+namespace bt::core
 {
     void example_fun();
 } // namespace bt_template
