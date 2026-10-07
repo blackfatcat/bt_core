@@ -96,6 +96,6 @@ jobs:
           cmake --build build/wasm
           mkdir bin
           mkdir bin/wasm
-          emcc -g build/wasm/libbt_template.a -o bin/wasm/template.js
+          emcc -g build/wasm/libbt_core.a -o bin/wasm/bt_core.js
 
       
