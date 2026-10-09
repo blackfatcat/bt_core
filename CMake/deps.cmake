@@ -11,7 +11,7 @@ Include("${CMAKE_BINARY_DIR}/cmake/CPM.cmake")
 
 CPMAddPackage(
     NAME bt_types
-    GITHUB_REPOSITORY "blackfatcat/bt_types"
+    GITHUB_REPOSITORY "bt-foundation/bt_types"
     GIT_TAG main # change to any branch you'd like
     OPTIONS "BT_STANDALONE ON" # Custom CMake options
 )
